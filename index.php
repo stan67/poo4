@@ -27,7 +27,7 @@ try {
     echo "Exception reçue  : ". $hasParkBrake->getMessage() . "<br>";
     $car->setParkBrake();
 } finally {
-    echo 'Ma voiture roule comme un donut<br>';
+    echo 'Ma voiture roule<br>';
 }
 echo $car->forward();
 echo '<br> Vitesse de la voiture : ' . $car->getCurrentSpeed() . ' km/h' . '<br>';
